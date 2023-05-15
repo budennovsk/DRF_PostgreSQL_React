@@ -14,13 +14,20 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path
 from .views import *
 
 urlpatterns = [
     path("", index, name='index'),
-    re_path(r"^api$", department, name='department'),
-    re_path(r"^api/([0-9]+)$", department, name='department'),
+    re_path(r"^department$", department, name='department'),
+    re_path(r"^department/([0-9]+)$", department, name='department'),
     path('api1/', CarAPIList.as_view()),
-]
+
+    path('employee', employeeApi, name='department'),
+    path('employee/<int:id>', employeeApi, name='department'),
+
+    re_path(r'^employee/savefile', SaveFile)
+]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
