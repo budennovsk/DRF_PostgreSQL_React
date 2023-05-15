@@ -1,4 +1,4 @@
-### DRF and PostgreSQL and React c методами CRUD использовал:
+# DRF and PostgreSQL and React c методами CRUD использовал:
 *  SQL db PostgreSQL
 *  React для оформления фронта 
 *  Bootstrap оформление стилей
