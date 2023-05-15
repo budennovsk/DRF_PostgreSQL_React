@@ -22,6 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-packege-lock.json
+package-lock.json
 setup Tests.js
 reportWebVitals.js
