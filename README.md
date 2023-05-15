@@ -29,7 +29,7 @@
 
 ### Create
 
-<img src="(https://github.com/budennovsk/DRF_PostgreSQL_React/assets/97764479/1c8bc92d-7418-438c-9d5b-9c492c555e99" width=70% height=70%>
+<img src="https://github.com/budennovsk/DRF_PostgreSQL_React/assets/97764479/1c8bc92d-7418-438c-9d5b-9c492c555e99" width=70% height=70%>
 
 ### PostgreSQL
 
